@@ -1,0 +1,65 @@
+[
+ {
+  "id": "itm_bread",
+  "name": "보리빵",
+  "kind": "consumable",
+  "healHP": 40,
+  "healMP": 0,
+  "revive": false,
+  "note": "HP 40 회복"
+ },
+ {
+  "id": "itm_stew",
+  "name": "순례자 스튜",
+  "kind": "consumable",
+  "healHP": 110,
+  "healMP": 0,
+  "revive": false,
+  "note": "HP 110 회복"
+ },
+ {
+  "id": "itm_tonic",
+  "name": "쓴 약초물",
+  "kind": "consumable",
+  "healHP": 0,
+  "healMP": 20,
+  "revive": false,
+  "note": "MP 20 회복"
+ },
+ {
+  "id": "itm_elixir",
+  "name": "종지기의 비약",
+  "kind": "consumable",
+  "healHP": 200,
+  "healMP": 40,
+  "revive": false,
+  "note": "HP 200 · MP 40 회복"
+ },
+ {
+  "id": "itm_feather",
+  "name": "깨우는 깃털",
+  "kind": "consumable",
+  "healHP": 0,
+  "healMP": 0,
+  "revive": true,
+  "note": "쓰러진 동료를 일으킨다"
+ },
+ {
+  "id": "itm_ore",
+  "name": "녹슨 광석",
+  "kind": "material",
+  "healHP": 0,
+  "healMP": 0,
+  "revive": false,
+  "note": "대장장이에게 가져가 보자"
+ },
+ {
+  "id": "itm_ledger",
+  "name": "고아원 장부",
+  "kind": "key",
+  "healHP": 0,
+  "healMP": 0,
+  "revive": false,
+  "note": "숫자가 맞지 않는 장부"
+ }
+]

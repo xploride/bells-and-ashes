@@ -1,0 +1,192 @@
+[
+ {
+  "id": "lien",
+  "name": "리엔",
+  "title": "셀레인 종루지기의 양자",
+  "weapon": "종추 사슬",
+  "affinities": [
+   "sound",
+   "wind"
+  ],
+  "baseStats": {
+   "maxHP": 62,
+   "maxMP": 14,
+   "atk": 14,
+   "def": 10,
+   "mag": 9,
+   "res": 8,
+   "agi": 11
+  },
+  "growth": {
+   "maxHP": 9,
+   "maxMP": 2,
+   "atk": 2,
+   "def": 2,
+   "mag": 1,
+   "res": 1,
+   "agi": 1
+  },
+  "skills": [
+   "sk_bell_strike",
+   "sk_chain_sweep",
+   "sk_steady"
+  ],
+  "defaultRow": "front",
+  "sprite": "chr_lien",
+  "portrait": "por_lien",
+  "ranged": false,
+  "intro": "열일곱. 종루 밑에서 주워 길러졌다. 300년 동안 울리지 않던 종이 울린 밤, 양부 오르한이 사라졌다."
+ },
+ {
+  "id": "havi",
+  "name": "하비",
+  "title": "떠돌이 악사",
+  "weapon": "쌍단검",
+  "affinities": [
+   "wind",
+   "water"
+  ],
+  "baseStats": {
+   "maxHP": 50,
+   "maxMP": 22,
+   "atk": 12,
+   "def": 8,
+   "mag": 12,
+   "res": 10,
+   "agi": 15
+  },
+  "growth": {
+   "maxHP": 7,
+   "maxMP": 3,
+   "atk": 2,
+   "def": 1,
+   "mag": 2,
+   "res": 1,
+   "agi": 2
+  },
+  "skills": [
+   "sk_quick_stab",
+   "sk_lullaby",
+   "sk_rally_song"
+  ],
+  "defaultRow": "front",
+  "sprite": "chr_havi",
+  "portrait": "por_havi",
+  "ranged": false,
+  "intro": "스물넷. 노래 한 곡에 밥 한 끼. 셈이 빠르고 입이 가볍지만, 약속은 이상하리만치 지킨다."
+ },
+ {
+  "id": "selma",
+  "name": "셀마",
+  "title": "청음파 순례 사제",
+  "weapon": "순례 지팡이",
+  "affinities": [
+   "light",
+   "water"
+  ],
+  "baseStats": {
+   "maxHP": 48,
+   "maxMP": 30,
+   "atk": 8,
+   "def": 8,
+   "mag": 15,
+   "res": 14,
+   "agi": 10
+  },
+  "growth": {
+   "maxHP": 6,
+   "maxMP": 4,
+   "atk": 1,
+   "def": 1,
+   "mag": 2,
+   "res": 2,
+   "agi": 1
+  },
+  "skills": [
+   "sk_staff_rap",
+   "sk_prayer",
+   "sk_sanctuary"
+  ],
+  "defaultRow": "back",
+  "sprite": "chr_selma",
+  "portrait": "por_selma",
+  "ranged": false,
+  "intro": "스물하나. 신은 여전히 말하고 있다고 배웠다. 다만 요즘은, 그 말을 들은 적이 있는지 확신이 서지 않는다."
+ },
+ {
+  "id": "godwin",
+  "name": "고드윈",
+  "title": "전직 공석교단 심문관",
+  "weapon": "대검",
+  "affinities": [
+   "earth",
+   "fire"
+  ],
+  "baseStats": {
+   "maxHP": 85,
+   "maxMP": 12,
+   "atk": 19,
+   "def": 15,
+   "mag": 7,
+   "res": 9,
+   "agi": 8
+  },
+  "growth": {
+   "maxHP": 12,
+   "maxMP": 1,
+   "atk": 3,
+   "def": 2,
+   "mag": 1,
+   "res": 1,
+   "agi": 1
+  },
+  "skills": [
+   "sk_cleave",
+   "sk_resolve",
+   "sk_rend"
+  ],
+  "defaultRow": "front",
+  "sprite": "chr_godwin",
+  "portrait": "por_godwin",
+  "ranged": false,
+  "intro": "마흔하나. 교단의 이름으로 사람을 심문했고, 어느 날 그만두었다. 이유는 말하지 않는다."
+ },
+ {
+  "id": "mira",
+  "name": "미라",
+  "title": "유물 도굴꾼",
+  "weapon": "짧은 활",
+  "affinities": [
+   "fire",
+   "thunder"
+  ],
+  "baseStats": {
+   "maxHP": 46,
+   "maxMP": 18,
+   "atk": 14,
+   "def": 7,
+   "mag": 11,
+   "res": 9,
+   "agi": 17
+  },
+  "growth": {
+   "maxHP": 6,
+   "maxMP": 2,
+   "atk": 2,
+   "def": 1,
+   "mag": 1,
+   "res": 1,
+   "agi": 2
+  },
+  "skills": [
+   "sk_aimed_shot",
+   "sk_fire_arrow",
+   "sk_scatter"
+  ],
+  "defaultRow": "back",
+  "sprite": "chr_mira",
+  "portrait": "por_mira",
+  "ranged": true,
+  "intro": "열다섯. 무너진 성당에서 쇳조각을 캐 팔며 산다. 어른의 약속은 믿지 않는다. 돈은 믿는다."
+ }
+]

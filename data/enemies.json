@@ -1,0 +1,359 @@
+[
+ {
+  "id": "ash_wolf",
+  "name": "잿빛 늑대",
+  "stats": {
+   "maxHP": 34,
+   "maxMP": 0,
+   "atk": 10,
+   "def": 5,
+   "mag": 3,
+   "res": 4,
+   "agi": 9
+  },
+  "skills": [
+   "es_bite"
+  ],
+  "element": null,
+  "resist": {
+   "fire": 1.3
+  },
+  "exp": 10,
+  "coin": 6,
+  "sprite": "enm_ash_wolf",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "rust_crow",
+  "name": "녹슨 까마귀",
+  "stats": {
+   "maxHP": 24,
+   "maxMP": 0,
+   "atk": 9,
+   "def": 4,
+   "mag": 4,
+   "res": 6,
+   "agi": 14
+  },
+  "skills": [
+   "es_peck"
+  ],
+  "element": "wind",
+  "resist": {
+   "earth": 0.5,
+   "thunder": 1.5
+  },
+  "exp": 9,
+  "coin": 5,
+  "sprite": "enm_rust_crow",
+  "defaultRow": "back",
+  "note": ""
+ },
+ {
+  "id": "ash_lump",
+  "name": "재뭉치",
+  "stats": {
+   "maxHP": 40,
+   "maxMP": 10,
+   "atk": 8,
+   "def": 9,
+   "mag": 7,
+   "res": 3,
+   "agi": 6
+  },
+  "skills": [
+   "es_ash_breath"
+  ],
+  "element": "earth",
+  "resist": {
+   "water": 1.5,
+   "wind": 1.3
+  },
+  "exp": 11,
+  "coin": 7,
+  "sprite": "enm_ash_lump",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "stone_beetle",
+  "name": "돌딱정벌레",
+  "stats": {
+   "maxHP": 64,
+   "maxMP": 6,
+   "atk": 16,
+   "def": 18,
+   "mag": 3,
+   "res": 6,
+   "agi": 7
+  },
+  "skills": [
+   "es_shell"
+  ],
+  "element": "earth",
+  "resist": {
+   "thunder": 1.6,
+   "wind": 0.6
+  },
+  "exp": 18,
+  "coin": 12,
+  "sprite": "enm_stone_beetle",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "bandit",
+  "name": "산적",
+  "stats": {
+   "maxHP": 52,
+   "maxMP": 0,
+   "atk": 13,
+   "def": 8,
+   "mag": 4,
+   "res": 6,
+   "agi": 10
+  },
+  "skills": [
+   "es_spear"
+  ],
+  "element": null,
+  "resist": {},
+  "exp": 16,
+  "coin": 18,
+  "sprite": "enm_bandit",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "bandit_archer",
+  "name": "산적 궁수",
+  "stats": {
+   "maxHP": 40,
+   "maxMP": 0,
+   "atk": 12,
+   "def": 6,
+   "mag": 5,
+   "res": 6,
+   "agi": 12
+  },
+  "skills": [
+   "es_arrow"
+  ],
+  "element": null,
+  "resist": {},
+  "exp": 15,
+  "coin": 16,
+  "sprite": "enm_bandit_archer",
+  "defaultRow": "back",
+  "note": ""
+ },
+ {
+  "id": "alley_thug",
+  "name": "골목 불량배",
+  "stats": {
+   "maxHP": 78,
+   "maxMP": 0,
+   "atk": 20,
+   "def": 10,
+   "mag": 4,
+   "res": 6,
+   "agi": 11
+  },
+  "skills": [
+   "es_heavy_blow"
+  ],
+  "element": null,
+  "resist": {},
+  "exp": 20,
+  "coin": 22,
+  "sprite": "enm_alley_thug",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "order_guard",
+  "name": "교단 경비병",
+  "stats": {
+   "maxHP": 104,
+   "maxMP": 0,
+   "atk": 27,
+   "def": 17,
+   "mag": 6,
+   "res": 12,
+   "agi": 11
+  },
+  "skills": [
+   "es_spear"
+  ],
+  "element": null,
+  "resist": {
+   "light": 0.7
+  },
+  "exp": 30,
+  "coin": 26,
+  "sprite": "enm_order_guard",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "order_acolyte",
+  "name": "교단 수련사제",
+  "stats": {
+   "maxHP": 70,
+   "maxMP": 50,
+   "atk": 10,
+   "def": 10,
+   "mag": 22,
+   "res": 18,
+   "agi": 12
+  },
+  "skills": [
+   "es_mend",
+   "es_chant"
+  ],
+  "element": "light",
+  "resist": {
+   "light": 0.5,
+   "sound": 1.5
+  },
+  "exp": 28,
+  "coin": 24,
+  "sprite": "enm_order_acolyte",
+  "defaultRow": "back",
+  "note": ""
+ },
+ {
+  "id": "hollow_bell",
+  "name": "빈 종",
+  "stats": {
+   "maxHP": 120,
+   "maxMP": 40,
+   "atk": 20,
+   "def": 22,
+   "mag": 24,
+   "res": 14,
+   "agi": 8
+  },
+  "skills": [
+   "es_wail"
+  ],
+  "element": "sound",
+  "resist": {
+   "sound": 0.3,
+   "thunder": 1.4
+  },
+  "exp": 36,
+  "coin": 20,
+  "sprite": "enm_hollow_bell",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "lamp_wisp",
+  "name": "등불 도깨비",
+  "stats": {
+   "maxHP": 52,
+   "maxMP": 40,
+   "atk": 6,
+   "def": 7,
+   "mag": 26,
+   "res": 16,
+   "agi": 16
+  },
+  "skills": [
+   "es_flicker"
+  ],
+  "element": "fire",
+  "resist": {
+   "fire": 0.2,
+   "water": 1.8
+  },
+  "exp": 26,
+  "coin": 14,
+  "sprite": "enm_lamp_wisp",
+  "defaultRow": "back",
+  "note": ""
+ },
+ {
+  "id": "crypt_shade",
+  "name": "납골당 그림자",
+  "stats": {
+   "maxHP": 100,
+   "maxMP": 40,
+   "atk": 24,
+   "def": 12,
+   "mag": 24,
+   "res": 20,
+   "agi": 14
+  },
+  "skills": [
+   "es_grave_chill"
+  ],
+  "element": "water",
+  "resist": {
+   "light": 1.8,
+   "water": 0.4
+  },
+  "exp": 34,
+  "coin": 18,
+  "sprite": "enm_crypt_shade",
+  "defaultRow": "front",
+  "note": ""
+ },
+ {
+  "id": "crypt_warden",
+  "name": "납골 수호자",
+  "stats": {
+   "maxHP": 820,
+   "maxMP": 80,
+   "atk": 34,
+   "def": 22,
+   "mag": 28,
+   "res": 18,
+   "agi": 12
+  },
+  "skills": [
+   "es_heavy_blow",
+   "es_grave_chill"
+  ],
+  "element": "water",
+  "resist": {
+   "light": 1.6,
+   "water": 0.3
+  },
+  "exp": 160,
+  "coin": 120,
+  "sprite": "enm_crypt_warden",
+  "defaultRow": "front",
+  "note": "boss"
+ },
+ {
+  "id": "inquisitor_barto",
+  "name": "심문관 바르토",
+  "stats": {
+   "maxHP": 1150,
+   "maxMP": 120,
+   "atk": 36,
+   "def": 22,
+   "mag": 34,
+   "res": 22,
+   "agi": 15
+  },
+  "skills": [
+   "es_judgement",
+   "es_heavy_blow",
+   "es_chant"
+  ],
+  "element": "light",
+  "resist": {
+   "light": 0.4,
+   "sound": 1.4
+  },
+  "exp": 320,
+  "coin": 300,
+  "sprite": "enm_inquisitor_barto",
+  "defaultRow": "front",
+  "note": "boss"
+ }
+]

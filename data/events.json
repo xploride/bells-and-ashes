@@ -1,0 +1,3021 @@
+[
+ {
+  "id": "m01_silent_night",
+  "title": "종이 울린 밤",
+  "kind": "main",
+  "region": "selain",
+  "map": "selain_belltower",
+  "npc": null,
+  "conditions": [],
+  "script": [
+   {
+    "speaker": "",
+    "text": "— 다음 날 아침 —",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "종루 아래 광장. 흰 법의를 입은 사내가 말에서 내렸다. 빈 고리 문장을 단 병사들이 뒤로 줄지어 섰다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "공석교단 심문관 바르토다. 어젯밤 이 마을 종이 울렸다지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "빈자리에서는 소리가 나지 않는다. 그런데도 났다면, 누군가 쳤다는 뜻이겠지. 종을 친 자는 나와라.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "마을 사람들이 서로의 얼굴을 살폈다. 그때 오르한이 천천히 앞으로 걸어 나왔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "내가 쳤소.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아니에요! 아버지는 종 근처에도—",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "오르한이 리엔을 보았다. 어젯밤의 약속이 그 눈 안에 그대로 있었다. 리엔은 이를 악물었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "…늙은 종지기라. 그래, 그렇다고 해 두지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "바르토는 리엔을 한참 바라보다가, 아무 말 없이 돌아섰다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "죄인은 하벨로 데려간다. 이 마을은 오늘 본 것을 잊는다. 잊지 못하면, 잊게 해 주겠다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "오르한을 태운 마차가 남쪽 숲길로 사라졌다. 주머니 속 회색 돌은 여전히 작게 울고 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "(나서지 말라고 했지, 따라가지 말라고는 안 했어.)",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "(도움말: 왼쪽 조이스틱으로 걷고, 사람 앞에서 '말하기'를 누른다. 머리 위 ! 는 본 이야기, ? 는 곁 이야기다.)",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_b_sound",
+    "amount": null
+   }
+  ],
+  "setFlags": [
+   "f_prologue"
+  ],
+  "summary": "종이 저절로 울린 다음 날, 오르한이 '내가 쳤다'며 리엔 대신 교단에 끌려갔다. 리엔에게는 떨리는 회색 돌만 남았다."
+ },
+ {
+  "id": "m02_elder",
+  "title": "오르한의 편지",
+  "kind": "main",
+  "region": "selain",
+  "map": "selain_belltower",
+  "npc": "elder",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m01_silent_night",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "촌장 베른",
+    "text": "리엔. …잘 참았다. 네가 한 발짝만 더 나왔으면, 마차에 둘이 탔을 거다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지는 종을 안 쳤어요. 종은 혼자 울었다고요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "촌장 베른",
+    "text": "안다. 그래서 더 무서운 거다. …오르한이 몇 해 전에 이걸 맡기더구나. 종이 울리는 날 너한테 주라고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "천 주머니에는 회색 돌 두 개와, 여러 번 접었다 편 편지 한 장이 들어 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『리엔. 이걸 읽고 있다면 종이 울렸고, 나는 교단에 끌려갔겠지.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『따라오지 말라고 쓰려다 그만뒀다. 써 봤자 넌 올 거니까. 그러니 제대로 와라.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『하벨에 고드윈이라는 사내가 있다. 나한테 빚이 있는 사람이다. 그 사람을 찾아가라. 그 빚이 무엇인지는 그 사람에게 들어라.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『돌은 세 개를 함께 쥐면 소리를 낸다. 그 소리가 너를 지켜 줄 거다.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『미안하다. 그리고, 밥은 거르지 마라. — 오르한』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…아버지는 몇 년 전부터 이날이 올 걸 알았던 거예요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "촌장 베른",
+    "text": "남쪽 숲길로 가거라. 개울과 들판, 고개를 넘으면 하벨이다. 고개에 교단 검문소가 생겼다니 조심하고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "촌장 베른",
+    "text": "떠나기 전에 마을을 한 바퀴 돌아봐라. 오르한이 부탁해 둔 사람이 나 하나는 아닐 거다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "(도움말: 메뉴 → 울림석에서 속성·형태·성질 돌을 하나씩 끼우면 전투에서 '울림'을 쓸 수 있다. 조합에 따라 효과가 달라진다.)",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_single",
+    "amount": null
+   },
+   {
+    "type": "stone",
+    "value": "stn_t_strike",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_bread",
+    "amount": 2
+   }
+  ],
+  "setFlags": [
+   "f_can_leave"
+  ],
+  "summary": "촌장에게서 오르한의 편지와 울림석 두 개를 받았다. 오르한은 이날이 올 것을 몇 년 전부터 알고 있었다. 하벨의 고드윈을 찾아야 한다."
+ },
+ {
+  "id": "o01_tower_kid",
+  "title": "토토가 본 것",
+  "kind": "optional",
+  "region": "selain",
+  "map": "selain_belltower",
+  "npc": "baker_kid",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m01_silent_night",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "빵집 아이 토토",
+    "text": "형…… 아저씨 금방 오지? 종 닦는 날까지는 오지?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…응. 내가 데리고 올게.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "빵집 아이 토토",
+    "text": "그럼 이거 말해 줄게. 나 사실 어젯밤에 종루 밑에 숨어 있었어. 종 닦는 날 제일 먼저 올라가려고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "토토. 밤에 거기 가지 말랬잖아.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "빵집 아이 토토",
+    "text": "근데 진짜야. 아저씨는 종 안 쳤어. 형이 계단 내려오는 발소리가 났고, 그다음에 울렸어. 형 발소리랑 같이.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…내 발소리랑 같이?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "빵집 아이 토토",
+    "text": "응. 그리고 아까 마차 타기 전에 아저씨가 나한테 이거 줬어. '리엔이 찾아오면 줘라' 그랬어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "손바닥만 한 납작한 돌이다. 쥐고 있으면 누군가 손을 마주 잡아 주는 것처럼 따뜻하다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "빵집 아이 토토",
+    "text": "형. 그 아저씨, 교단 사람. 형 쳐다볼 때 눈이 무서웠어. 조심해.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_allyone",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "토토는 리엔이 계단을 내려올 때 종이 울렸다고 했다. 오르한이 끌려가기 전 토토에게 맡긴 울림석을 받았다."
+ },
+ {
+  "id": "o02_forge_stone",
+  "title": "화덕 밑의 돌",
+  "kind": "optional",
+  "region": "selain",
+  "map": "selain_belltower",
+  "npc": "smith",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "대장장이 도라",
+    "text": "간다며. 촌장 얼굴 보니까 알겠더라. 빈손으로 보낼 순 없지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "대장장이 도라",
+    "text": "화덕 바닥에 묻어 둔 돌이야. 불을 아무리 때도 안 깨져. 너희 아버지가 몇 해 전에 맡기면서 그러더라. '그날이 오면 리엔한테.'",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "그날이 뭔지 물어보셨어요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "대장장이 도라",
+    "text": "물었지. 대답 대신 내 망치를 들고 쇠를 두드리더라. 그 양반, 젊을 땐 대장장이였대. 몰랐지?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…몰랐어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "대장장이 도라",
+    "text": "너한테 말 안 한 게 많은 사람이야. 다 너 때문이었겠지만.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "대장장이 도라",
+    "text": "이것도 챙겨. 길에서 다치면 마셔. 맛은 끔찍해. 그게 약효야.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_heal",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_tonic",
+    "amount": 2
+   }
+  ],
+  "setFlags": [],
+  "summary": "대장장이 도라도 오르한에게서 돌을 맡아 두고 있었다. 치유의 울림석과 약초물을 받았다."
+ },
+ {
+  "id": "o03_well",
+  "title": "물맛이 바뀐 우물",
+  "kind": "optional",
+  "region": "selain",
+  "map": "selain_belltower",
+  "npc": "well_woman",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m01_silent_night",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "우물가 아낙 사라",
+    "text": "리엔, 이 물 좀 마셔 봐. 종 울린 다음부터 이래.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "한 모금 마시자, 머릿속이 한겨울 아침처럼 맑아졌다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…차가워요. 이상하게 귀가 트이는 느낌이에요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "우물가 아낙 사라",
+    "text": "그렇지? 아까 교단 병사들도 우물을 한참 들여다보더라. 뭘 찾는지 말도 안 하고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "우물가 아낙 사라",
+    "text": "병사들 가고 나서 바닥에 뭐가 반짝이길래 건졌어. 근데 무서워서 못 갖고 있겠어. 네가 가져.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "우물가 아낙 사라",
+    "text": "그리고 리엔. 오르한 씨가 너 키운다고 할 때, 마을 사람들 다 반대했었어. 그 사람 혼자 끝까지 우겼지. …그 얘기 해 주고 싶었어.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_b_water",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "우물 바닥에서 건진 물의 울림석을 받았다. 교단 병사들도 우물을 살피고 갔다고 한다."
+ },
+ {
+  "id": "a01_leave",
+  "title": "마을을 떠나며",
+  "kind": "main",
+  "region": "selain",
+  "map": "selain_woods",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "숲길로 접어들기 전, 리엔은 한 번 뒤를 돌아보았다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "언덕 위 종루가 아침 햇빛 속에 서 있었다. 열일곱 해 동안 매일 밤 오르던 계단이, 오늘은 아주 멀어 보였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "(종 닦는 날까지는 데리고 올게요.)",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "주머니 속 회색 돌이 한 번 짧게 떨렸다. 대답처럼.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [],
+  "setFlags": [],
+  "summary": "셀레인을 떠났다. 남쪽 숲길을 따라 하벨로 향한다."
+ },
+ {
+  "id": "o16_mill",
+  "title": "물레방아 기둥",
+  "kind": "optional",
+  "region": "selain",
+  "map": "mill_creek",
+  "npc": "miller",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "물레방아 할머니",
+    "text": "너, 오르한네 아들이지? 어릴 때 오르한이 업고 여기 물 구경 오곤 했잖아.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "물레방아 할머니",
+    "text": "어제 교단 마차가 여기서 쉬어 갔어. 말들 물 먹이느라고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "물레방아 할머니",
+    "text": "오르한이 기둥 앞에 한참 서 있더라. 병사가 재촉하니까 '오줌 누는 중이오' 하더니, 손톱으로 뭘 긁는 것 같던데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "물레방아 기둥에 손톱으로 긁어 새긴 글씨가 있다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『리엔. 밥.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…끌려가면서 이런 걸 써요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "물레방아 할머니",
+    "text": "그런 사람이니까 남 대신 끌려가지. 자, 이거 싸 가. 오늘 찐 거야. 아버지 말 들어.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "item",
+    "value": "itm_bread",
+    "amount": 3
+   },
+   {
+    "type": "item",
+    "value": "itm_tonic",
+    "amount": 1
+   },
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 20
+   }
+  ],
+  "setFlags": [],
+  "summary": "물레방아 기둥에 오르한이 손톱으로 남긴 글이 있었다. 할머니에게서 먹을 것을 받았다."
+ },
+ {
+  "id": "a02_ash",
+  "title": "잿빛 들판",
+  "kind": "main",
+  "region": "ash",
+  "map": "ash_fields",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "개울을 건너자 풀빛이 갑자기 사라졌다. 발밑의 흙이 회색으로 바뀌고, 바람에서 오래된 탄내가 났다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "무너진 집터, 기울어진 망루, 이름 없는 무덤들. 한때 마을이었던 자리였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "그리고 주머니 속 회색 돌이, 셀레인을 떠난 뒤 처음으로 크게 떨기 시작했다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "(…여기서 무언가를 기억하고 있는 것 같아.)",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [],
+  "setFlags": [],
+  "summary": "불타 버린 옛 마을의 터, 잿빛 들판에 들어섰다. 회색 돌이 크게 떨렸다."
+ },
+ {
+  "id": "o05_ash_old",
+  "title": "재를 줍는 노인",
+  "kind": "optional",
+  "region": "ash",
+  "map": "ash_fields",
+  "npc": "ash_old",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "a02_ash",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "처음 보는 얼굴이네. 이 들판이 왜 잿빛인지 알아?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "불이 났었나요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "침묵의 날 얘기는 들어 봤겠지. 종이 다 멈추고 사람들이 신이 떠났다고 믿은 날.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "여기 살던 사람들은 겁에 질려서 서로를 의심했어. 누가 신을 노하게 했냐고. 그러다 결국 자기 마을에 불을 질렀지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…자기 마을에요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "불은 석 달을 탔대. 그 불을 끈 게 교단이야. 빈 고리를 들고 와서, '신은 떠났다, 이제 우리가 질서를 세운다' 하고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "그래서 이 근방 늙은이들은 아직도 교단 욕을 못 해. 그 사람들이 아니었으면 다 타 죽었을 테니.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "재를 줍는 노인",
+    "text": "재 속에서 이런 게 나와. 돌은 너 가져. 이 쇳덩이는 하벨 대장장이한테 보여 주고. 옛날 종 쇠 같거든.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_debuff",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_ore",
+    "amount": 1
+   }
+  ],
+  "setFlags": [],
+  "summary": "잿빛 들판은 침묵의 날 공포에 질린 사람들이 스스로 불태운 마을이었다. 그 불을 끈 것이 교단이었다."
+ },
+ {
+  "id": "o04_milestone",
+  "title": "뽑힌 이정표",
+  "kind": "optional",
+  "region": "ash",
+  "map": "ash_pass",
+  "npc": "traveler",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "여기까지 올라왔네. 숨 좀 돌려. 여기 서면 길이 다 보여.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "저 아래 성벽 두른 데가 하벨. 그 너머, 구름에 걸린 게 성도야. 대륙 한가운데. 셀레인은 안 보이지. 너무 작아서.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "이정표가 뽑혀 있네요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "교단이 뽑았어. 일주일 전에 검문소를 세우면서. 사람들이 딴 길을 알면 곤란하거든.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "일주일 전이요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "그래. 이상하지? 종은 어젯밤에 울렸다며. 교단은 그 전부터 뭘 기다리고 있었던 거야.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "밑동에서 이게 나왔어. 가져가. 난 갈 데가 없어서 길을 알 필요가 없으니.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_line",
+    "amount": null
+   },
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 30
+   }
+  ],
+  "setFlags": [],
+  "summary": "고갯마루 나그네에게서 울림석을 받았다. 교단은 종이 울리기 일주일 전에 검문소를 세웠다."
+ },
+ {
+  "id": "m03_havi",
+  "title": "주막의 악사",
+  "kind": "main",
+  "region": "ash",
+  "map": "pass_inn",
+  "npc": "havi",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m02_elder",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "주막 앞 우물가에 류트를 멘 청년이 앉아 있었다. 리엔의 신발을 보더니 씩 웃었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "셀레인 쪽에서 왔지? 신발에 묻은 흙이 붉어. 이 근방엔 그런 흙이 없거든.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…누구세요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "하비. 떠돌이 악사. 노래로 먹고사는데, 요즘은 들어 줄 사람이 없어서 굶고 사는 중.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "검문소 봤지? 일주일 전부터 셀레인 쪽에서 오는 사람은 무조건 돌려보내. 하벨에서 오는 사람도 못 나가고. 덕분에 여기 사흘째 갇혀 있어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "하벨에 가야 해요. 꼭.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "다들 그렇게 말해. …근데 너는 눈이 좀 다르네. 무슨 일인데?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지가 교단에 끌려갔어요. 어제 아침에.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "하비의 웃음이 잠깐 멈췄다. 손가락이 류트 줄 위에서 가만히 굳었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…그래. 그럼 가야지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "검문소를 돌아가는 샛길이 있어. 옛 수로길. 숲속이라 길 모르면 못 찾아. 내가 안내해 줄게.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "대신 부탁 하나만. 주막 뒤 마구간에 밤마다 늑대가 내려와. 할멈이 그거 쫓아 주면 밥값 빼 준대서—",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…야, 뒤!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "join",
+    "arg": "havi"
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "battle",
+    "arg": "ash_wolf,ash_wolf"
+   },
+   {
+    "speaker": "havi",
+    "text": "휴. 사슬 쓰는 솜씨가 제법인데? 어디서 배웠어?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "종루에서요. 종 줄 매는 법부터 배웠거든요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "하하, 종지기 아들이었어? 좋아, 그럼 결정. 길은 내가 안내하고, 싸움은 네가 하고. 공평하잖아.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "아, 이거. 노래값 대신 받은 돌인데 난 쓸 줄 몰라. 너 같은 사람이 쓰는 게 낫겠어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "할멈한테 늑대 쫓았다고 말하고 오자. 국밥 정도는 얻어먹을 수 있을 거야. 그다음에 남쪽으로 내려가는 거야.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "member",
+    "value": "havi",
+    "amount": null
+   },
+   {
+    "type": "stone",
+    "value": "stn_b_wind",
+    "amount": null
+   }
+  ],
+  "setFlags": [
+   "f_havi_joined"
+  ],
+  "summary": "고개 주막에서 악사 하비를 만났다. 늑대를 함께 쫓아내고, 검문소를 피해 옛 수로길로 하벨에 가기로 했다."
+ },
+ {
+  "id": "o17_inn_soup",
+  "title": "주막 할멈의 국밥",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "pass_inn_in",
+  "npc": "innkeeper",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m03_havi",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "주막 할멈",
+    "text": "늑대 쫓았다며? 앉아. 국밥 한 그릇씩은 먹고 가야지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "할멈, 저는 원래 공짜 손님이었잖아요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "주막 할멈",
+    "text": "넌 외상 손님이었지. 오늘로 퉁쳐 준다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "김이 오르는 국밥이 나왔다. 어제 아침부터 아무것도 먹지 않았다는 걸, 리엔은 그제야 깨달았다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "heal",
+    "arg": null
+   },
+   {
+    "speaker": "주막 할멈",
+    "text": "하비 이놈, 이 주막에 처음 왔을 때가 열 살쯤이었나. 하벨에서 혼자 걸어왔더라고. 그때도 류트는 메고 있었지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "할멈, 그 얘긴 왜 해요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "주막 할멈",
+    "text": "같이 다닐 사람한텐 알려 줘야지. 이놈 웃는 거 다 믿으면 안 된다는 거.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "item",
+    "value": "itm_bread",
+    "amount": 2
+   }
+  ],
+  "setFlags": [],
+  "summary": "주막 할멈이 국밥을 내주어 기운을 되찾았다. 하비는 열 살 무렵 하벨에서 혼자 이 주막까지 걸어왔다고 한다."
+ },
+ {
+  "id": "a03_camp",
+  "title": "수로길의 밤",
+  "kind": "main",
+  "region": "harvel",
+  "map": "old_road",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m03_havi",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "옛 수로길은 생각보다 길었다. 무너진 돌기둥 사이로 해가 졌고, 둘은 마른 수로 바닥에 불을 피웠다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "내일 점심쯤이면 하벨이 보일 거야. 성문에선 내가 말할게. 넌 입 다물고 있어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "하비는 하벨에 왜 가요? 돈벌이라면 다른 데도 있을 텐데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "우리 엄마가 하벨에 있었어. 노래하는 사람이었지. 청음파 노래.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "청음파요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "신의 목소리가 언젠가 다시 들릴 거라고 믿는 사람들. 교단 말로는 이단이야. 열 살 때, 엄마는 교단에 끌려갔어. 옛 성당 감옥으로.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "그 뒤로 소식이 없어. 나는 하벨을 떠났고, 십 년 동안 한 번도 안 돌아갔어. 무서웠거든.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "근데 어젯밤에 고개에서 종소리를 들었어. 아주 멀리서. 이상하지, 그 소리 듣고 엄마 노래가 생각나더라.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "그래서 이번엔 가 보려고. 너희 아버지도 아마 같은 데 있을 거야. …같이 가면 덜 무섭겠지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "모닥불이 탁, 하고 튀었다. 리엔의 주머니 속 돌이 아주 작게, 노래하듯 떨었다.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 30
+   }
+  ],
+  "setFlags": [
+   "f_havi_story"
+  ],
+  "summary": "수로길에서 밤을 보냈다. 하비의 어머니는 청음파 가수였고, 십 년 전 옛 성당 감옥으로 끌려갔다."
+ },
+ {
+  "id": "o18_runaway",
+  "title": "도망친 수련생",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "old_road",
+  "npc": "runaway",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "a03_camp",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "도망친 수련생",
+    "text": "…오지 마세요. 교단 사람이면 소리 지를 거예요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "우리가 교단처럼 보여? 이 꼴이?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "도망친 수련생",
+    "text": "…아니네요. 저 하벨 고아원 애예요. '수련생'으로 뽑혀 갔다가 도망쳤어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "수련생은 뭘 하는데?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "도망친 수련생",
+    "text": "옛 성당 지하에서 매일 귀를 막고 기도해요. '아무것도 들리지 않습니다.' 백 번, 천 번. 그러다 뭐가 들린다고 하면 혼나요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "도망친 수련생",
+    "text": "근데 일주일 전부터 다들 뭐가 들린대요. 종소리 같은 거. 그래서 다 독방에 갇혔어요. 저는 그 틈에 나왔고요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "도망친 수련생",
+    "text": "하벨 가면 미라 언니 찾아봐요. 고아원에서 제일 먼저 도망친 언니예요. 옛 성당 길을 다 알아요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "도망친 수련생",
+    "text": "이거 가져가세요. 고아원 애들끼리 나눠 가진 행운 깃털이에요. 저는 이제 필요 없어요. 다시는 안 돌아갈 거니까.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "item",
+    "value": "itm_feather",
+    "amount": 2
+   },
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 40
+   }
+  ],
+  "setFlags": [],
+  "summary": "하벨 고아원에서 도망친 수련생을 만났다. 교단은 아이들에게 '들리지 않는다'고 기도하게 하고, 무언가 들린다는 아이를 가두고 있었다."
+ },
+ {
+  "id": "a04_outskirts",
+  "title": "하벨이 보이는 곳",
+  "kind": "main",
+  "region": "harvel",
+  "map": "harvel_outskirts",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m03_havi",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "숲이 끝나자 금빛 밀밭이 펼쳐졌다. 그 너머로 회색 성벽과, 성벽 위로 솟은 대성당의 첨탑이 보였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "첨탑 꼭대기에 빈 고리 문장이 햇빛을 받아 번쩍였다. 아버지를 데려간 사람들의 문장이었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "저기가 하벨. 공석교단이 다스리는 도시야. 성문 경비는 셀레인이라는 말만 들어도 눈이 뒤집힐 거야.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "고드윈이라는 사람을 찾아야 해요. 아버지가 편지에 그 이름을 남겼어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "고드윈? …어디서 들어 본 이름인데. 일단 들어가고 보자. 웃어. 우린 일거리 찾는 떠돌이 둘이야.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [],
+  "setFlags": [],
+  "summary": "하벨 외곽에 닿았다. 성벽 너머 대성당 첨탑에 빈 고리 문장이 빛나고 있었다."
+ },
+ {
+  "id": "m04_gate",
+  "title": "하벨 성문",
+  "kind": "main",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m03_havi",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "교단 경비병",
+    "text": "멈춰. 어디서 왔지?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "고개 주막에서요, 나리. 저 하비잖아요. 주막에서 노래하던.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 경비병",
+    "text": "검문소가 막혔는데 어떻게 내려왔어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "검문소 생기기 전에 올라갔다가, 밥값이 떨어져서 내려온 거죠. 고개 위에선 늑대밖에 노래를 안 들어 줘요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 경비병",
+    "text": "옆에 놈은?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "제 조카요. 말을 잘 못 해요. 숫기가 없어서.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔은 고개를 숙였다. 주머니 속에서 돌이 떨지 않기를 빌었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 경비병",
+    "text": "…요즘 변두리 종이 울렸다는 헛소문이 돈다. 들은 거 있나?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "종이요? 신이 떠났는데 종이 어떻게 울려요. 제 지갑이 울리면 모를까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 경비병",
+    "text": "…들어가. 광장에서 소란 피우면 옛 성당 감옥행이다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "성문을 지나자 하비가 낮게 숨을 내쉬었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "봤지? 교단은 종이 울린 걸 '헛소문'이라고 해. 울렸다고 인정하는 순간 자기들 말이 틀린 게 되니까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "옛 성당 감옥…… 아버지는 거기 있을 거예요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "엄마도 거기 갔었어. 서두르지 말자. 먼저 고드윈이라는 사람부터 찾아.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [],
+  "setFlags": [
+   "f_in_harvel"
+  ],
+  "summary": "하벨에 들어섰다. 교단은 종이 울렸다는 이야기를 '헛소문'이라며 입막음하고 있었다."
+ },
+ {
+  "id": "m05_selma",
+  "title": "돌의 소리를 듣는 사람",
+  "kind": "main",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "selma",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "광장 한쪽, 순례자 차림의 여자가 눈을 감고 서 있었다. 리엔이 곁을 지나는 순간, 그녀가 눈을 번쩍 떴다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "잠깐만요. 이쪽으로. 빨리요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "여자는 리엔의 팔을 잡아 골목 안으로 끌었다. 몇 걸음 뒤, 교단 순찰대가 광장을 가로질러 지나갔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "…주머니에 든 거, 계속 울리고 있어요. 저한테는 다 들려요. 순찰대에 귀 밝은 사람이 하나만 있었어도 끝이었어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "이 소리가 들려요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "저는 셀마. 청음파 순례 사제예요. 우리는 어릴 때부터 듣는 법을 배워요. 신의 목소리가 다시 들리는 날, 놓치지 않으려고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "청음파…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "일주일 전에 교단이 하벨의 우리 은신처를 덮쳤어요. 대성당 종 줄이 떨렸대요. 그날 이후로 다들 잡혀가고, 저만 남았어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "그리고 어젯밤엔 남쪽에서 종소리가 들렸어요. 평생 기다리던 소리였는데…… 막상 들리니까 무서웠어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "그 소리가, 지금 당신 주머니에서 나고 있어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "고드윈이라는 사람을 찾고 있어요. 아버지가 그 사람을 찾으라고 했어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "고드윈 씨요? …알아요. 삼 년 전, 은신처가 처음 들켰을 때 심문관 하나가 뒷문을 열어 줬어요. 그게 그 사람이었어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "지금은 교단을 떠나서 성당 뒷골목에 혼자 살아요. 데려다줄게요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "대신 저도 같이 갈게요. 이 소리가 어디서 오는지 알아야겠어요. 그게 신이든, 아니든.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "'아니든'? 사제가 그런 말 해도 돼?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "사제니까 해야죠. 기다리기만 하는 건, 우리 할머니 때로 충분해요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "join",
+    "arg": "selma"
+   }
+  ],
+  "rewards": [
+   {
+    "type": "member",
+    "value": "selma",
+    "amount": null
+   },
+   {
+    "type": "stone",
+    "value": "stn_b_light",
+    "amount": null
+   }
+  ],
+  "setFlags": [
+   "f_selma_joined"
+  ],
+  "summary": "청음파 사제 셀마가 동료가 되었다. 그녀는 회색 돌의 소리를 듣고 리엔을 순찰대에게서 숨겨 주었다. 고드윈에게 안내해 주기로 했다."
+ },
+ {
+  "id": "m06_godwin",
+  "title": "빚진 사람",
+  "kind": "main",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "godwin",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m05_selma",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "성당 뒷골목 끝, 덩치 큰 사내가 벽에 기대어 앉아 있었다. 낡은 외투 아래로 교단 칼집이 보였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…셀마. 아직 하벨에 있었나. 떠나라고 했을 텐데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "손님을 데려왔어요. 셀레인에서 왔대요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "셀레인이라는 말에 사내의 눈이 처음으로 움직였다. 리엔의 얼굴을 한참 들여다보았다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "오르한의 아들, 리엔이에요. 아버지가 당신을 찾으라고 했어요. 빚이 있다고요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔이 편지를 내밀었다. 고드윈은 그것을 오래, 아주 오래 읽었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…열일곱 해 전, 교단이 나를 셀레인으로 보냈다. 도망자를 쫓으라고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "한겨울이었다. 눈보라에 길을 잃고 쓰러진 나를, 종지기 하나가 업고 종루로 데려갔지. 그게 오르한이다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "쫓으러 간 놈을 살려 준 거다. 그 빚을 아직 못 갚았다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "도망자요? 누구를 쫓았는데요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "지금 중요한 건 그게 아니다. 오르한은 북쪽 옛 성당 지하에 있다. 바르토가 직접 심문하고 있다. 내일 새벽에 판결이 난다고 들었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "판결이라 해도 결과는 하나다. 교단은 '종을 울린 자'를 살려 둔 적이 없다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지는 종을 안 쳤어요. 종은 저절로—",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "안다. 바르토도 알 거다. 그래서 더 위험하다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "사람이 친 종은 사람을 없애면 끝난다. 저절로 운 종은 그렇지 않지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "바르토는 오르한을 미끼로 쓰는 거다. 진짜 '울린 것'이 제 발로 찾아오길 기다리면서.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…그 '진짜'가 지금 여기 서 있는 거고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "그래. 알면서 가겠다는 거냐, 꼬마.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "리엔이에요. 네, 가요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…오르한 아들 맞군. 북문 열쇠가 아직 나한테 있다. 해가 지면 간다. 나도 같이.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "join",
+    "arg": "godwin"
+   },
+   {
+    "speaker": "godwin",
+    "text": "그 전에 준비해 둬라. 성당 안엔 경비가 많다. 대장장이, 잡화점, 쓸 만한 건 다 챙겨.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "member",
+    "value": "godwin",
+    "amount": null
+   },
+   {
+    "type": "stone",
+    "value": "stn_b_earth",
+    "amount": null
+   }
+  ],
+  "setFlags": [
+   "f_godwin_joined",
+   "f_chapel_open"
+  ],
+  "summary": "전직 심문관 고드윈이 동료가 되었다. 열일곱 해 전 오르한이 그를 살렸다고 한다. 바르토는 오르한을 미끼로 삼고 있다. 해가 지면 북문으로 옛 성당에 간다."
+ },
+ {
+  "id": "o06_preacher",
+  "title": "빈자리의 설교",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "preacher",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "광장의 설교자",
+    "text": "여러분! 신의 자리는 비었습니다! 삼백 년 전, 신은 우리를 두고 떠났습니다!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "광장의 설교자",
+    "text": "그날 우리는 서로를 불태웠습니다. 잿빛 들판을 보십시오! 신이 없는 세상에서 사람은 짐승이 됩니다!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "광장의 설교자",
+    "text": "그러니 빈자리는 우리가 지킵니다. 질서로, 규율로, 서로를 지켜보는 눈으로!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "광장 사람들이 고개를 끄덕인다. 누군가는 눈물을 닦고 있다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "말은 잘하네. 틀린 말도 아니고. …그게 제일 무서워.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "잿빛 들판에서 만난 할아버지도 비슷한 말을 했어요. 교단이 불을 껐다고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "불을 끈 사람이랑 지금 사람 가두는 사람이 같은 사람들이라는 게 문제지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "설교가 끝나자, 설교단 장식에서 떨어진 작은 돌 하나가 리엔의 발치까지 굴러왔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "광장의 설교자",
+    "text": "…가져가요. 설교할 때마다 그게 떨려서 신경 쓰였어요. 꼭 내 말에 대꾸하는 것 같아서.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_all",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "광장에서 교단의 설교를 들었다. 신이 없는 세상에서 사람은 짐승이 된다며, 교단의 질서를 정당화하고 있었다."
+ },
+ {
+  "id": "o07_ledger",
+  "title": "맞지 않는 장부",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "orphan_keeper",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   },
+   {
+    "type": "member",
+    "value": "havi",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "고아원 원장",
+    "text": "아, 여행자분들이시구나. 혹시 셈 잘하시는 분…… 아니에요, 됐어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "셈이라면 노래 다음으로 잘하는 건데요. 보여 주세요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "하비가 장부를 휙휙 넘긴다. 손가락이 류트 줄을 짚을 때처럼 빠르다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "원장님. 교단 '보호세'가 매달 올랐네요. 아이 수는 줄었는데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고아원 원장",
+    "text": "교단이 애들을 수련생으로 데려가요. 데려간 만큼 세금은 줄어야 맞는데…… 오히려 '훈련비'라며 더 걷어 가요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고아원 원장",
+    "text": "데려간 애들은 한 번도 돌아온 적이 없어요. 미라라는 애만 그 전에 도망쳤고요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "이 장부, 제가 맡아 둘게요. 언젠가 꼭 쓸 데가 있을 거예요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고아원 원장",
+    "text": "고마워요. 애들이 '용기 돌'이라고 부르던 건데, 가져가세요. 무서운 꿈 꿀 때 쥐고 자던 거예요.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_buff",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_ledger",
+    "amount": 1
+   }
+  ],
+  "setFlags": [],
+  "summary": "고아원 장부에서 교단의 수상한 셈을 찾았다. 수련생으로 데려간 아이들은 한 번도 돌아오지 않았다."
+ },
+ {
+  "id": "o08_ringer",
+  "title": "취한 종지기",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "drunk",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "취한 종지기",
+    "text": "종? 딸꾹. 내가 하벨 대성당 종지기야. 사십 년. 사십 년 동안 매일 줄을 당겼어. 한 번도 안 울렸지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "그런데도 매일 당기셨어요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "취한 종지기",
+    "text": "그게 일이니까! …아니, 거짓말이다. 언젠가는 울릴 줄 알았어. 매일.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "취한 종지기",
+    "text": "근데 일주일 전에 말이야, 내가 줄을 안 당겼는데 줄이 혼자 떨렸어. 이렇게, 부르르.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "취한 종지기",
+    "text": "신났지! 바르토 님한테 뛰어가서 말했어. 종이 대답했다고. 그랬더니 그 양반 얼굴이 하얗게 질리더라.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "취한 종지기",
+    "text": "다음 날 청음파 은신처가 박살 났어. 고개엔 검문소가 생기고. …내가 말해서 그런 거야. 내가.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "(일주일 전…… 검문소도, 셀마네 은신처도, 다 거기서 시작된 거야.)",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "취한 종지기",
+    "text": "그런데 셀레인 그 촌구석 종이 먼저 울었다며? 하하. 사십 년…… 이거 가져. 나 같은 놈한텐 아까워.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_self",
+    "amount": null
+   },
+   {
+    "type": "coin",
+    "value": "",
+    "amount": 30
+   }
+  ],
+  "setFlags": [],
+  "summary": "일주일 전 대성당 종 줄이 혼자 떨렸고, 종지기가 그것을 바르토에게 알렸다. 검문소와 청음파 단속은 거기서 시작됐다."
+ },
+ {
+  "id": "o09_mira",
+  "title": "골목의 도굴꾼",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "mira",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "mira",
+    "text": "…뭘 봐.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "그 활, 성당 문장이 새겨져 있네.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "주웠어. 옛 성당에서. 교단이 버린 게 거기 잔뜩 있거든. 팔면 밥값은 돼.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "골목 끝에서 덩치 큰 사내 셋이 다가왔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "골목 불량배",
+    "text": "꼬맹이, 이번 달 자릿세 내야지. 안 내면 고아원에 도로 갖다 바친다?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "…또야.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "join",
+    "arg": "mira"
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "battle",
+    "arg": "alley_thug,alley_thug,alley_thug"
+   },
+   {
+    "speaker": "mira",
+    "text": "……안 도와줘도 됐는데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "알아.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "고아원 얘기 들었지. 그래, 나 거기 출신이야. 수련생 뽑히기 전날 밤에 도망쳤어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "수로길에서 고아원 애를 만났어. 미라 언니를 찾아보라고 하던데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "…걔가 나왔구나. 다행이다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "너희 옛 성당 가려는 거지? 교단 냄새 나. 지하로 가는 길 알려 줄게. 갇힌 애들 소식도 알고 싶고.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "대신 거기서 나온 물건은 반씩 나눠. 그건 양보 못 해.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "member",
+    "value": "mira",
+    "amount": null
+   },
+   {
+    "type": "stone",
+    "value": "stn_b_fire",
+    "amount": null
+   }
+  ],
+  "setFlags": [
+   "f_mira_joined"
+  ],
+  "summary": "고아원에서 도망친 소녀 미라가 동료가 되었다. 옛 성당 지하로 가는 길을 안다고 한다."
+ },
+ {
+  "id": "o10_quench",
+  "title": "담금질",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "smith_harvel",
+  "conditions": [
+   {
+    "type": "item",
+    "value": "itm_ore",
+    "amount": 1
+   }
+  ],
+  "script": [
+   {
+    "speaker": "하벨 대장장이",
+    "text": "녹슨 쇳덩이? …어디서 났어? 이거 옛날 종 쇠야. 요즘은 이런 쇠를 못 만들어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "하벨 대장장이",
+    "text": "요새 교단 일감은 쇠사슬, 쇠고랑, 쇠창살뿐이야. 이런 걸 만져 본 게 언젠지. 잠깐 기다려.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "take",
+    "arg": "itm_ore"
+   },
+   {
+    "speaker": "",
+    "text": "망치 소리가 길게 이어졌다. 리엔은 그 소리가 어딘가 종소리를 닮았다고 생각했다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "하벨 대장장이",
+    "text": "쇠는 녹아 버리고 돌만 남았어. 받아. 좋은 소리가 나겠더라.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "하벨 대장장이",
+    "text": "…그리고 이건 못 들은 걸로 해. 셀레인 종지기를 묶은 쇠사슬도 내가 만든 거야. 미안하다고 전해 줘.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_drain",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "녹슨 쇳덩이는 옛 종의 쇠였다. 담금질 끝에 울림석이 나왔다. 대장장이는 오르한을 묶은 사슬을 만든 것을 미안해했다."
+ },
+ {
+  "id": "o11_pilgrim",
+  "title": "숨은 순례자",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "pilgrim",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m04_gate",
+    "amount": null
+   },
+   {
+    "type": "member",
+    "value": "selma",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "숨은 순례자",
+    "text": "쉿. …셀마 님? 무사하셨군요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "다들 어디 있어요? 은신처가 텅 비어 있던데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "숨은 순례자",
+    "text": "잡혀갔어요. 옛 성당으로요. 남은 건 저 하나랑, 이거 하나.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "숨은 순례자",
+    "text": "'새벽 돌'이에요. 쓰러진 사람을 다시 일으킨다고 전해져요. 그런데 한 번도 써 본 적이 없어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "왜요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "숨은 순례자",
+    "text": "기다렸거든요. 신이 직접 일으켜 주시기를. 그게 우리 가르침이었잖아요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "…이제는 우리가 써요. 기다리기만 하다가 다 잡혀갔어요. 가서 데려올게요.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_revive",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_feather",
+    "amount": 2
+   }
+  ],
+  "setFlags": [],
+  "summary": "청음파의 마지막 순례자에게서 새벽 돌을 받았다. 붙잡힌 청음파 사람들도 옛 성당에 있다. 셀마는 더 이상 기다리지 않기로 했다."
+ },
+ {
+  "id": "o12_clerk",
+  "title": "서기의 장부",
+  "kind": "optional",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": "clerk",
+  "conditions": [
+   {
+    "type": "member",
+    "value": "godwin",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "교단 서기",
+    "text": "서류 없는 민원은 안…… 고, 고드윈 님?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "'전' 심문관이다. 바르토의 이송 기록 보여 줘.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 서기",
+    "text": "그, 그게…… 네. 어제 셀레인에서 남자 하나. 죄목 '종을 울린 자'. 처분은…… 빈칸이에요. 바르토 님이 직접 정하신대요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 서기",
+    "text": "그리고, 바르토 님이 며칠 전에 옛날 기록을 하나 찾으셨어요. 열일곱 해 전 셀레인 건이요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 서기",
+    "text": "보고자 이름이 고드윈 님이던데요. '도주자 및 동행 아기, 눈 속에서 모두 사망 확인.' 바르토 님이 그걸 한참 보시더니, 웃으셨어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아기요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…가자. 볼일 끝났다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 서기",
+    "text": "아, 저기, 이거! 고드윈 님이 예전에 맡기셨던 거예요. 찾으러 안 오셔서……",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "기억 안 나는데. …받아 두지.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_f_allyall",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "열일곱 해 전 셀레인 사건의 보고서에는 고드윈의 이름으로 '도주자와 아기 모두 사망'이라 적혀 있었다. 고드윈은 아무 말도 하지 않았다."
+ },
+ {
+  "id": "m07_corridor",
+  "title": "침묵의 회랑",
+  "kind": "main",
+  "region": "chapel",
+  "map": "old_chapel",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m06_godwin",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "해가 진 뒤, 고드윈의 열쇠로 북문이 열렸다. 하벨 북쪽 언덕 위, 침묵의 날에 버려진 옛 성당이 달빛 아래 웅크리고 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "교단은 이곳을 감옥으로 쓰고 있었다. 무너진 회랑마다 쇠창살이 덧대어져 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "지하 제단은 북쪽 끝이다. 바르토는 거기서 심문하는 걸 좋아한다. 조용하니까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "리엔, 돌이……",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "응. 아까보다 훨씬 크게 울려. 아버지가 가까이 있나 봐.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "회랑 벽에는 손톱으로 긁은 글자들이 빼곡했다. 이름, 날짜, 기도. 하비가 걸음을 멈췄다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "하비의 손가락이 벽의 한 줄을 더듬었다. 다른 글자들보다 조금 더 단정한 글씨였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『루타. 들리지 않아도, 부르기를 멈추지 말 것.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…엄마 글씨야. 노래 가사를 적을 때 꼭 이렇게 썼어. 마지막 획을 길게.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "그 구절…… 청음파 순례 노래의 첫 줄이에요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "그래? 난 가락만 기억했는데. 가사가 이거였구나.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…괜찮아. 가자. 엄마가 여기 있었다는 걸 알았으니까 됐어. 지금은 살아 있는 사람부터 구해야지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "교단 경비병",
+    "text": "누구냐! 침입자다!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "battle",
+    "arg": "order_guard,order_guard,order_acolyte"
+   },
+   {
+    "speaker": "godwin",
+    "text": "서두르자. 이 소리, 바르토한테도 들렸을 거다. …아니, 그자는 처음부터 듣고 기다리고 있었겠지.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 60
+   }
+  ],
+  "setFlags": [
+   "f_chapel_in"
+  ],
+  "summary": "밤의 옛 성당에 들어섰다. 회랑 벽에서 하비 어머니 루타가 남긴 글을 찾았다. 회색 돌의 울림이 점점 커지고 있다."
+ },
+ {
+  "id": "m08_bell_ringer",
+  "title": "종을 울린 자",
+  "kind": "main",
+  "region": "chapel",
+  "map": "old_chapel",
+  "npc": "orhan",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m07_corridor",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "지하 제단. 금이 간 낡은 종 아래, 사슬에 묶인 오르한이 무릎을 꿇고 있었다. 그 곁에 흰 법의의 바르토가 등을 돌리고 서 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "…왔구나. 소리를 따라서. 생각보다 하루 늦었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "리엔…… 나서지 말라고 했잖아.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "제대로 오라면서요. 편지에 그렇게 썼잖아요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "오르한의 얼굴이 일그러졌다. 웃는 것인지 우는 것인지 알 수 없었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "봐라, 오르한. 네가 아무리 자기가 쳤다고 우겨도, 소리는 저 아이를 따라 여기까지 왔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "그리고 고드윈. 오랜만이군. 열일곱 해 전 네 보고서, 아주 잘 읽었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "'도주자 및 동행 아기, 눈 속에서 모두 사망 확인.' 시체도 없이 말이지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…아기?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…….",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "말해 주지 그랬나. 그 아기가 누구였는지. 네가 누구를 쫓다가 눈 속에 쓰러졌는지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…그래. 리엔. 열일곱 해 전 내가 쫓던 건 청음파 여자 하나와, 그 품에 안긴 아기였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "그 여자가 가진 돌이 울렸다. 교단은 그걸 없애라고 했고, 나는 명령대로 쫓았다. 눈보라 속을, 셀레인 종루까지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "깨어났을 때, 여자는 이미 죽어 있었다. 오르한이 아기를 안고 있더군. 그 아기가 너다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "나는 '모두 죽었다'고 썼다. 그게 내 빚이다. 오르한이 나를 살렸고, 나는 너를 숨겼다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…아니, 그렇게라도 하지 않으면 견딜 수가 없었다. 내가 쫓지 않았으면 그 여자는 살았을 테니까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔은 아무 말도 할 수 없었다. 주머니 속 돌이 미친 듯이 떨고 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "이제 알겠지. 종이 왜 울렸는지. 저 아이는 침묵의 날 이후 처음으로 '소리를 가진' 인간이다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "잿빛 들판을 지나왔겠지. 소리가 사라졌을 때 사람들은 서로를 불태웠다. 내 선조도 그 불 속에서 죽었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "소리가 돌아오면 또 그렇게 된다. 누가 신의 편이냐를 두고, 다시 서로를 태울 거다. 침묵은 자비다. 나는 그 자비를 지킨다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "그래서 듣는 사람들을 가두고, 아이들 귀를 막게 했어요? 그게 자비예요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "불타 죽는 것보다는.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "…아버지를 놓아 주세요. 제가 소리를 가졌다면, 저를 데려가면 되잖아요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "리엔!",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "기특하군. 하지만 늦었다. 네 소리는 이미 대성당까지 닿았다. 지워야 할 건 너 하나가 아니야.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "그럼 싸울 수밖에 없네요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "battle",
+    "arg": "boss:inquisitor_barto,order_guard,order_acolyte"
+   },
+   {
+    "speaker": "",
+    "text": "바르토가 무릎을 꿇었다. 흰 법의가 먼지와 피로 얼룩져 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "심문관 바르토",
+    "text": "…왜…… 왜 하필 저런 아이한테…… 우리는 삼백 년을…… 듣지 않으려고……",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "그 순간, 제단 위의 깨진 종이 낮게 울었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔의 주머니가 아니라 종 자체가 울고 있었다. 성당 안의 모두가 그 소리를 들었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "셀마가 입을 막고 무릎을 꿇었다. 하비는 눈을 감았다. 고드윈은 고개를 숙였다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "…그래. 이제 숨길 수가 없구나.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "네 어머니 이름은 이세나였다. 청음파 가수였지. 숨이 끊긴 채로도 너를 꼭 안고 있었다. 그리고 손에 그 회색 돌을 쥐고 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "그날 밤에도 종이 아주 작게 울었다. 나는 그 소리를 아무한테도 말하지 않았어. 너를 지키려면 종이 다시는 울리지 않아야 했으니까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "그래서 매일 밤 종루에 올라갔던 거예요? 종이 또 울릴까 봐?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "울리지 않기를 빌면서. 그리고 울리는 날이 오면, 그때는 너를 보내 줘야 한다는 것도 알면서.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "대륙 한가운데 성도에 대종이 있다. 침묵의 날, 가장 먼저 멈춘 종이지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "네 어머니는 그 종을 찾아가던 길이었다. 네가 누구인지는, 아마 거기 있을 거다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "신의 목소리가…… 사람한테서 난다는 거예요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "모르겠다. 평생 종을 지켰지만, 종이 무엇인지는 끝내 몰랐어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "바르토는 시작일 뿐이다. 대성당이 이 소리를 들었다면, 교단 전체가 움직인다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "그럼 일단 여길 빠져나가자. 감옥에 갇힌 사람들 열쇠, 바르토 허리춤에 있네.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "heal",
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "아버지, 걸을 수 있어요?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "…네가 왔는데, 걸어야지.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_b_sound2",
+    "amount": null
+   },
+   {
+    "type": "item",
+    "value": "itm_elixir",
+    "amount": 2
+   }
+  ],
+  "setFlags": [
+   "f_barto_defeated"
+  ],
+  "summary": "바르토를 쓰러뜨리고 오르한을 구했다. 고드윈은 열일곱 해 전 리엔의 어머니 이세나를 쫓았고, 리엔을 숨기려 거짓 보고를 썼다. 종은 리엔에게 반응해 울린다."
+ },
+ {
+  "id": "m09_dawn",
+  "title": "새벽의 하벨",
+  "kind": "main",
+  "region": "harvel",
+  "map": "harvel",
+  "npc": null,
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m08_bell_ringer",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "새벽. 옛 성당 감옥에 갇혀 있던 사람들이 하나둘 하벨의 뒷골목으로 흩어졌다. 청음파 순례자들, 그리고 귀를 막고 있던 수련생 아이들.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "고아원 원장이 아이들을 한 명씩 끌어안았다. 오르한은 고아원 다락방에 몸을 숨기기로 했다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "나는 여기서 몸을 추스르마. 원장 덕에 숨을 곳은 생겼다. 늙은이가 따라가 봤자 짐이야.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "종 닦는 날까지 데리고 가겠다고 토토한테 약속했는데.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "오르한",
+    "text": "그럼 그 약속은 다음으로 미루자. 너도 돌아올 이유가 하나쯤은 있어야지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "…리엔. 나를 용서하라고는 안 하겠다. 다만 성도까지는 같이 가겠다. 그게 이세나에게 진 빚이니까.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "용서할지 말지는 성도에 도착해서 정할게요. 그때까지는 같이 가요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "잡혀간 우리 사람들도 일부는 이미 성도로 보내졌대요. 저도 가요. 이제는 기다리는 쪽이 아니라 찾아가는 쪽이 될래요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "엄마 노래, 가사까지 알게 됐으니까 이제 제대로 불러 줄 데가 필요하잖아. 성도 대종 앞이면 무대로 딱이지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "동쪽 하늘이 밝아 왔다. 대성당 첨탑의 빈 고리가 붉게 물들었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔은 주머니에서 회색 돌을 꺼냈다. 돌은 더 이상 떨지 않았다. 대신 아주 낮게, 노래하듯 울고 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "가요. 성도로.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "— 제1장 「종이 울린 밤」 끝 —",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "(체험판은 여기까지입니다. 아직 듣지 못한 곁 이야기를 찾아보세요.)",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [],
+  "setFlags": [
+   "f_chapter1_clear"
+  ],
+  "summary": "갇혀 있던 사람들을 풀어 주었다. 오르한은 하벨 고아원에 몸을 숨겼다. 리엔 일행은 대종이 있는 성도로 떠나기로 했다. — 제1장 끝"
+ },
+ {
+  "id": "o15_old_song",
+  "title": "루타의 노래",
+  "kind": "optional",
+  "region": "ash",
+  "map": "ash_pass",
+  "npc": "traveler",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "o04_milestone",
+    "amount": null
+   },
+   {
+    "type": "member",
+    "value": "havi",
+    "amount": null
+   },
+   {
+    "type": "member",
+    "value": "selma",
+    "amount": null
+   },
+   {
+    "type": "event",
+    "value": "m07_corridor",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "havi",
+    "text": "아저씨, 여기 좀 앉을게요. 높은 데 오니까 노래가 하고 싶어서.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "셀마, 가사 좀 알려 줄래? 처음부터 끝까지. 이번엔 제대로 불러 보고 싶어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "'들리지 않아도, 부르기를 멈추지 말 것. 닿지 않아도, 걸음을 멈추지 말 것.'",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "하비가 류트를 고르고 노래를 시작했다. 바람이 비탈을 타고 올라와 노래를 실어 갔다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔의 주머니 속 돌이 노래에 맞춰 낮게 울었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "…그 노래, 정말 오랜만이야. 예전에 하벨 광장에서 어떤 여자가 부르던 노래랑 똑같군.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "havi",
+    "text": "…우리 엄마예요. 루타.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "고갯마루 나그네",
+    "text": "그래, 그 이름이었어. 그 여자 노래 덕에 하루를 버틴 날이 있었지. 고맙네. 이건 노래값이야.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "item",
+    "value": "itm_elixir",
+    "amount": 1
+   },
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 60
+   }
+  ],
+  "setFlags": [],
+  "summary": "고갯마루에서 하비가 어머니 루타의 노래를 처음으로 가사까지 불렀다. 나그네는 그 노래를 기억하고 있었다."
+ },
+ {
+  "id": "o13_scribble",
+  "title": "손톱으로 새긴 기도",
+  "kind": "optional",
+  "region": "chapel",
+  "map": "old_chapel",
+  "npc": "scribble",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m07_corridor",
+    "amount": null
+   },
+   {
+    "type": "member",
+    "value": "mira",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "",
+    "text": "기도실 벽 가득 손톱으로 긁은 글씨. 회랑과 달리, 전부 같은 문장이다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "『들리지 않습니다. 들리지 않습니다. 들리지 않습니다.』",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "…여기가 수련생 기도실이야. 고아원 애들이 여기서 하루 종일 이걸 외워. 들리지 않습니다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "나도 끌려올 뻔했어. 도망친 날 밤, 여기 창문 너머로 들어와 봤거든. 애들 목소리가 다 쉬어 있었어.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "이 벽돌 밑에 뭐 박혀 있는 거 알아? 나 혼자선 못 뺐어. 같이 하자.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "글씨 뒤 벽돌을 빼내자, 불꽃처럼 튀는 돌이 굴러 나왔다. 돌은 미라의 손에서 파르르 떨었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "…이거, 애들이 들은 소리가 여기 다 모여 있었던 거 아닐까. 들리는데 들리지 않는다고 해야 했던 거.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "mira",
+    "text": "반씩 나누기로 했지? …됐어, 너 써. 돌은 너희가 더 잘 쓰니까. 대신 애들 소리, 꼭 어디 쓸모 있게 써.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_b_thunder",
+    "amount": null
+   }
+  ],
+  "setFlags": [],
+  "summary": "수련생 기도실 벽에 '들리지 않습니다'가 빼곡히 새겨져 있었다. 미라와 함께 벽 속에서 번개의 울림석을 찾았다."
+ },
+ {
+  "id": "o14_crypt",
+  "title": "납골당의 기척",
+  "kind": "optional",
+  "region": "chapel",
+  "map": "old_chapel",
+  "npc": "crypt_spirit",
+  "conditions": [
+   {
+    "type": "event",
+    "value": "m07_corridor",
+    "amount": null
+   }
+  ],
+  "script": [
+   {
+    "speaker": "납골당의 기척",
+    "text": "……돌려줘…… 그 소리…… 돌려줘……",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "망자예요. 침묵의 날에 죽은 사람들…… 아직도 그날 멈춘 소리를 기다리고 있어요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "돌려달라는 게 종소리야?",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "",
+    "text": "리엔의 회색 돌이 떨리자, 기척이 형체를 갖추며 일어섰다. 크고, 무겁고, 화가 나 있었다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "godwin",
+    "text": "소리를 기다리다 지쳐서, 소리를 가진 것을 미워하게 된 거다. 사람도 그렇게 되지.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": null,
+    "text": null,
+    "op": "battle",
+    "arg": "boss:crypt_warden,crypt_shade"
+   },
+   {
+    "speaker": "",
+    "text": "수호자가 무너지며, 오래 쥐고 있던 돌을 바닥에 내려놓았다. 그 손이 마지막으로 리엔 쪽을 향했다.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "selma",
+    "text": "…마지막에 들었을까요.",
+    "op": null,
+    "arg": null
+   },
+   {
+    "speaker": "lien",
+    "text": "들었을 거야. 방금 돌이 한 번 크게 울렸으니까. 이번엔 화난 소리가 아니었어.",
+    "op": null,
+    "arg": null
+   }
+  ],
+  "rewards": [
+   {
+    "type": "stone",
+    "value": "stn_t_strike2",
+    "amount": null
+   },
+   {
+    "type": "exp",
+    "value": "",
+    "amount": 120
+   }
+  ],
+  "setFlags": [],
+  "summary": "납골당에서 오래도록 종소리를 기다린 수호자를 쉬게 했다. 수호자가 쥐고 있던 울림석을 얻었다."
+ }
+]

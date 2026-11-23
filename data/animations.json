@@ -1,0 +1,4838 @@
+[
+ {
+  "id": "default_strike",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.18,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.18,
+    "color": "#ffffff",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "sfx": [
+     "bt_hit"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.18
+   },
+   {
+    "type": "shake",
+    "duration": 0.12,
+    "magnitude": 0.6
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "enemy_strike",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.16,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.16,
+    "color": "#ffb0a0",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffd0c8",
+    "sfx": [
+     "bt_hit_enemy"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   },
+   {
+    "type": "shake",
+    "duration": 0.12,
+    "magnitude": 0.7
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "heavy_strike",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.25,
+    "color": "#f2c14e",
+    "count": 8,
+    "sfx": [
+     "sk_charge"
+    ]
+   },
+   {
+    "type": "dash",
+    "duration": 0.2,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "wait",
+    "duration": 0.08
+   },
+   {
+    "type": "strike",
+    "duration": 0.2,
+    "color": "#f2c14e",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3c0",
+    "sfx": [
+     "bt_hit_heavy"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.3,
+    "magnitude": 1.6
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#f2c14e",
+    "count": 16
+   },
+   {
+    "type": "knockback",
+    "duration": 0.22,
+    "magnitude": 1.6
+   },
+   {
+    "type": "return",
+    "duration": 0.25
+   }
+  ]
+ },
+ {
+  "id": "quick_double",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.12,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.26,
+    "color": "#d8f3ff",
+    "count": 3,
+    "sfx": [
+     "sk_quick_stab"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.12,
+    "magnitude": 0.5
+   },
+   {
+    "type": "return",
+    "duration": 0.15
+   }
+  ]
+ },
+ {
+  "id": "sweep",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.18,
+    "magnitude": 0.7,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.26,
+    "color": "#c9d6ff",
+    "count": 2,
+    "sfx": [
+     "sk_chain"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "sfx": [
+     "bt_hit"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.18
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "ranged_shot",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.14,
+    "color": "#ffffff",
+    "count": 4,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.26,
+    "magnitude": 0.8,
+    "color": "#e8d8a8",
+    "sfx": [
+     "sk_bow_shot"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1,
+    "sfx": [
+     "sk_arrow_hit"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.14,
+    "magnitude": 0.6
+   }
+  ]
+ },
+ {
+  "id": "enemy_ranged",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.14,
+    "color": "#ffb0a0",
+    "count": 4
+   },
+   {
+    "type": "projectile",
+    "duration": 0.26,
+    "magnitude": 0.8,
+    "color": "#d8a8a0",
+    "sfx": [
+     "es_arrow"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1,
+    "color": "#ffd0c8",
+    "sfx": [
+     "sk_arrow_hit"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.14,
+    "magnitude": 0.6
+   }
+  ]
+ },
+ {
+  "id": "fire_arrow",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#ff8a3d",
+    "count": 8,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.2,
+    "color": "#ff8a3d",
+    "sfx": [
+     "sk_fire_arrow"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffb070",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff8a3d",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.15,
+    "magnitude": 0.8
+   }
+  ]
+ },
+ {
+  "id": "scatter",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#e8d8a8",
+    "count": 6,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#e8d8a8",
+    "count": 22,
+    "sfx": [
+     "sk_arrow_rain"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 0.8
+   }
+  ]
+ },
+ {
+  "id": "support_heal",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#7ee08a",
+    "count": 12,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#b8f5c0",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#7ee08a",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "support_buff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "debuff_wave",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#b48cff",
+    "count": 10
+   },
+   {
+    "type": "ring",
+    "duration": 0.5,
+    "color": "#b48cff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b48cff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.3,
+    "color": "#6b4ea0",
+    "count": 10
+   }
+  ]
+ },
+ {
+  "id": "enemy_magic",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff6b6b",
+    "count": 10,
+    "sfx": [
+     "es_cast"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.2,
+    "color": "#ff6b6b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffb0b0",
+    "sfx": [
+     "bt_hit_enemy"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   }
+  ]
+ },
+ {
+  "id": "enemy_wail",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#8fa0c8",
+    "count": 10
+   },
+   {
+    "type": "ring",
+    "duration": 0.5,
+    "color": "#8fa0c8",
+    "sfx": [
+     "es_wail"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#c8d0f0"
+   },
+   {
+    "type": "shake",
+    "duration": 0.25,
+    "magnitude": 1.2
+   }
+  ]
+ },
+ {
+  "id": "boss_judgement",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.2,
+    "color": "#ffffff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 16,
+    "sfx": [
+     "es_judgement_cast"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.55,
+    "color": "#fff3b0",
+    "sfx": [
+     "es_judgement"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15
+   },
+   {
+    "type": "shake",
+    "duration": 0.4,
+    "magnitude": 2
+   },
+   {
+    "type": "knockback",
+    "duration": 0.2,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "guard",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.25,
+    "color": "#9fb4ff",
+    "count": 6,
+    "sfx": [
+     "bt_guard"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "swap",
+  "steps": [
+   {
+    "type": "wait",
+    "duration": 0.25,
+    "sfx": [
+     "bt_swap"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "flee",
+  "steps": [
+   {
+    "type": "wait",
+    "duration": 0.3,
+    "sfx": [
+     "bt_flee"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wait",
+  "steps": [
+   {
+    "type": "wait",
+    "duration": 0.3
+   }
+  ]
+ },
+ {
+  "id": "item_use",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#ffffff",
+    "count": 6,
+    "sfx": [
+     "it_food"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   }
+  ]
+ },
+ {
+  "id": "spell_single_fire",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 14,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.0,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_fire",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 16,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ff7a3d",
+    "count": 26,
+    "sfx": [
+     "magw_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.25,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_fire",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_water",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.0,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_water",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#4fb4ff",
+    "count": 26,
+    "sfx": [
+     "magw_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.25,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_water",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_wind",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 14,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.0,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_wind",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 16,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#8ff0c8",
+    "sfx": [
+     "magw_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.25,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_wind",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_earth",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 14,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.0,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_earth",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 16,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.5,
+    "color": "#c9a26b",
+    "sfx": [
+     "magw_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.25,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_earth",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_light",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 14,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.0,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_light",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 16,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#fff3b0",
+    "sfx": [
+     "magw_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.25,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_light",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_sound",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.0,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_sound",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#c8a8ff",
+    "sfx": [
+     "magw_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.25,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_sound",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_thunder",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 14,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.0,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_thunder",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 16,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ffe14f",
+    "count": 26,
+    "sfx": [
+     "magw_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.25,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_support_thunder",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "flee_fail",
+  "steps": [
+   {
+    "type": "wait",
+    "duration": 0.3,
+    "sfx": [
+     "bt_flee_fail"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "item_hp",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#ffffff",
+    "count": 6,
+    "sfx": [
+     "it_food"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   }
+  ]
+ },
+ {
+  "id": "item_mp",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#ffffff",
+    "count": 6,
+    "sfx": [
+     "it_drink"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8d8ff"
+   }
+  ]
+ },
+ {
+  "id": "item_elixir",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#fff3b0",
+    "count": 10,
+    "sfx": [
+     "it_elixir"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "item_revive",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#ffffff",
+    "count": 8,
+    "sfx": [
+     "it_feather"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#fff7d8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffffff"
+   }
+  ]
+ },
+ {
+  "id": "spell_single_fire_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 14,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.0,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_fire_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 14,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.0,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_fire_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 16,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ff7a3d",
+    "count": 26,
+    "sfx": [
+     "magw_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.25,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_fire_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 16,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ff7a3d",
+    "count": 26,
+    "sfx": [
+     "magw_fire"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_fire",
+    "magnitude": 1.25,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ff7a3d",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_fire",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_fire",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_fire",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ff7a3d",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ff7a3d"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff7a3d",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_water_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.0,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_water_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.0,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_water_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#4fb4ff",
+    "count": 26,
+    "sfx": [
+     "magw_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.25,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_water_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#4fb4ff",
+    "count": 26,
+    "sfx": [
+     "magw_water"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_water",
+    "magnitude": 1.25,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#4fb4ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_water",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_water",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_water",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_water"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#4fb4ff",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#4fb4ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#4fb4ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_wind_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 14,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.0,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_wind_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 14,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.0,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_wind_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 16,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#8ff0c8",
+    "sfx": [
+     "magw_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.25,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_wind_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 16,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#8ff0c8",
+    "sfx": [
+     "magw_wind"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_wind",
+    "magnitude": 1.25,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#8ff0c8",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_wind",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_wind",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_wind",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12,
+    "sfx": [
+     "mag_cast_wind"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#8ff0c8",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#8ff0c8"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#8ff0c8",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_earth_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 14,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.0,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_earth_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 14,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.0,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_earth_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 16,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.5,
+    "color": "#c9a26b",
+    "sfx": [
+     "magw_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.25,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_earth_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 16,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.5,
+    "color": "#c9a26b",
+    "sfx": [
+     "magw_earth"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_earth",
+    "magnitude": 1.25,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c9a26b",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_earth",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_earth",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_earth",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12,
+    "sfx": [
+     "mag_cast_earth"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c9a26b",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c9a26b"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c9a26b",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_light_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 14,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.0,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_light_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 14,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.0,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_light_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 16,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#fff3b0",
+    "sfx": [
+     "magw_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.25,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_light_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 16,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#fff3b0",
+    "sfx": [
+     "magw_light"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_light",
+    "magnitude": 1.25,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#fff3b0",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_light",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_light",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_light",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12,
+    "sfx": [
+     "mag_cast_light"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#fff3b0",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3b0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#fff3b0",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_sound_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.0,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_sound_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 14,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.4,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.0,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_sound_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#c8a8ff",
+    "sfx": [
+     "magw_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.25,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_sound_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 16,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.55,
+    "color": "#c8a8ff",
+    "sfx": [
+     "magw_sound"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_sound",
+    "magnitude": 1.25,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#c8a8ff",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_sound",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_sound",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_sound",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12,
+    "sfx": [
+     "mag_cast_sound"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#c8a8ff",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#c8a8ff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#c8a8ff",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_single_thunder_debuff",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 14,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.0,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_single_thunder_drain",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 14,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.0,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 18
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16,
+    "magnitude": 1
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_thunder_debuff",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 16,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ffe14f",
+    "count": 26,
+    "sfx": [
+     "magw_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.25,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_wide_thunder_drain",
+  "steps": [
+   {
+    "type": "screen",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "cast",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 16,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#ffe14f",
+    "count": 26,
+    "sfx": [
+     "magw_thunder"
+    ]
+   },
+   {
+    "type": "fx",
+    "duration": 0.42,
+    "sheet": "fx_thunder",
+    "magnitude": 1.25,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_drain"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.4,
+    "color": "#ffe14f",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.35,
+    "magnitude": 1.5
+   }
+  ]
+ },
+ {
+  "id": "spell_heal_thunder",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_buff_thunder",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "spell_revive_thunder",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12,
+    "sfx": [
+     "mag_cast_thunder"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#ffe14f",
+    "sfx": [
+     "mag_revive"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#ffe14f"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ffe14f",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "heavy_strike@sk_bell_strike",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.25,
+    "color": "#f2c14e",
+    "count": 8,
+    "sfx": [
+     "sk_charge"
+    ]
+   },
+   {
+    "type": "dash",
+    "duration": 0.2,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "wait",
+    "duration": 0.08
+   },
+   {
+    "type": "strike",
+    "duration": 0.2,
+    "color": "#f2c14e",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3c0",
+    "sfx": [
+     "sk_bell_strike"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.3,
+    "magnitude": 1.6
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#f2c14e",
+    "count": 16
+   },
+   {
+    "type": "knockback",
+    "duration": 0.22,
+    "magnitude": 1.6
+   },
+   {
+    "type": "return",
+    "duration": 0.25
+   }
+  ]
+ },
+ {
+  "id": "sweep@sk_chain_sweep",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.18,
+    "magnitude": 0.7,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.26,
+    "color": "#c9d6ff",
+    "count": 2,
+    "sfx": [
+     "sk_chain"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "sfx": [
+     "bt_hit"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.18
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "support_buff@sk_steady",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10,
+    "sfx": [
+     "sk_steady"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "quick_double@sk_quick_stab",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.12,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.26,
+    "color": "#d8f3ff",
+    "count": 3,
+    "sfx": [
+     "sk_quick_stab"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.12,
+    "magnitude": 0.5
+   },
+   {
+    "type": "return",
+    "duration": 0.15
+   }
+  ]
+ },
+ {
+  "id": "debuff_wave@sk_lullaby",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#b48cff",
+    "count": 10,
+    "sfx": [
+     "sk_lullaby"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.5,
+    "color": "#b48cff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b48cff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.3,
+    "color": "#6b4ea0",
+    "count": 10
+   }
+  ]
+ },
+ {
+  "id": "support_buff@sk_rally_song",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10,
+    "sfx": [
+     "sk_rally"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "default_strike@sk_staff_rap",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.18,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.18,
+    "color": "#ffffff",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "sfx": [
+     "sk_staff"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.18
+   },
+   {
+    "type": "shake",
+    "duration": 0.12,
+    "magnitude": 0.6
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "support_heal@sk_prayer",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#7ee08a",
+    "count": 12,
+    "sfx": [
+     "sk_prayer"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#b8f5c0",
+    "sfx": [
+     "bt_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#7ee08a",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "support_heal@sk_sanctuary",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#7ee08a",
+    "count": 12,
+    "sfx": [
+     "sk_sanctuary"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#b8f5c0",
+    "sfx": [
+     "bt_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#7ee08a",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "heavy_strike@sk_cleave",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.25,
+    "color": "#f2c14e",
+    "count": 8,
+    "sfx": [
+     "sk_charge_dark"
+    ]
+   },
+   {
+    "type": "dash",
+    "duration": 0.2,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "wait",
+    "duration": 0.08
+   },
+   {
+    "type": "strike",
+    "duration": 0.2,
+    "color": "#f2c14e",
+    "count": 1,
+    "sfx": [
+     "sk_cleave"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3c0",
+    "sfx": [
+     "bt_hit_heavy"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.3,
+    "magnitude": 1.6
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#f2c14e",
+    "count": 16
+   },
+   {
+    "type": "knockback",
+    "duration": 0.22,
+    "magnitude": 1.6
+   },
+   {
+    "type": "return",
+    "duration": 0.25
+   }
+  ]
+ },
+ {
+  "id": "support_buff@sk_resolve",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10,
+    "sfx": [
+     "sk_resolve"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "sweep@sk_rend",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.18,
+    "magnitude": 0.7,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.26,
+    "color": "#c9d6ff",
+    "count": 2,
+    "sfx": [
+     "sk_rend"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "sfx": [
+     "bt_hit"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.18
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "ranged_shot@sk_aimed_shot",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.14,
+    "color": "#ffffff",
+    "count": 4,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.26,
+    "magnitude": 0.8,
+    "color": "#e8d8a8",
+    "sfx": [
+     "sk_bow_shot"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1,
+    "sfx": [
+     "sk_arrow_hit"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.14,
+    "magnitude": 0.6
+   }
+  ]
+ },
+ {
+  "id": "fire_arrow@sk_fire_arrow",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#ff8a3d",
+    "count": 8,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.2,
+    "color": "#ff8a3d",
+    "sfx": [
+     "sk_fire_arrow"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffb070",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#ff8a3d",
+    "count": 14
+   },
+   {
+    "type": "shake",
+    "duration": 0.15,
+    "magnitude": 0.8
+   }
+  ]
+ },
+ {
+  "id": "scatter@sk_scatter",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.2,
+    "color": "#e8d8a8",
+    "count": 6,
+    "sfx": [
+     "sk_bow_draw"
+    ]
+   },
+   {
+    "type": "rain",
+    "duration": 0.6,
+    "color": "#e8d8a8",
+    "count": 22,
+    "sfx": [
+     "sk_arrow_rain"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 0.8
+   }
+  ]
+ },
+ {
+  "id": "enemy_strike@es_bite",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.16,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.16,
+    "color": "#ffb0a0",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffd0c8",
+    "sfx": [
+     "es_bite"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   },
+   {
+    "type": "shake",
+    "duration": 0.12,
+    "magnitude": 0.7
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "enemy_ranged@es_peck",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.14,
+    "color": "#ffb0a0",
+    "count": 4
+   },
+   {
+    "type": "projectile",
+    "duration": 0.26,
+    "magnitude": 0.8,
+    "color": "#d8a8a0",
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1,
+    "color": "#ffd0c8",
+    "sfx": [
+     "es_peck"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.14,
+    "magnitude": 0.6
+   }
+  ]
+ },
+ {
+  "id": "enemy_magic@es_ash_breath",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff6b6b",
+    "count": 10,
+    "sfx": [
+     "es_ash_breath"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.2,
+    "color": "#ff6b6b"
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffb0b0",
+    "sfx": [
+     "mag_earth"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   }
+  ]
+ },
+ {
+  "id": "support_heal@es_mend",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#7ee08a",
+    "count": 12,
+    "sfx": [
+     "es_mend"
+    ]
+   },
+   {
+    "type": "pillar",
+    "duration": 0.45,
+    "color": "#b8f5c0",
+    "sfx": [
+     "bt_heal"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b8f5c0"
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#7ee08a",
+    "count": 12
+   }
+  ]
+ },
+ {
+  "id": "enemy_strike@es_spear",
+  "steps": [
+   {
+    "type": "dash",
+    "duration": 0.16,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "strike",
+    "duration": 0.16,
+    "color": "#ffb0a0",
+    "count": 1,
+    "sfx": [
+     "es_spear"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffd0c8",
+    "sfx": [
+     "bt_hit_enemy"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   },
+   {
+    "type": "shake",
+    "duration": 0.12,
+    "magnitude": 0.7
+   },
+   {
+    "type": "return",
+    "duration": 0.2
+   }
+  ]
+ },
+ {
+  "id": "enemy_ranged@es_arrow",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.14,
+    "color": "#ffb0a0",
+    "count": 4
+   },
+   {
+    "type": "projectile",
+    "duration": 0.26,
+    "magnitude": 0.8,
+    "color": "#d8a8a0",
+    "sfx": [
+     "es_arrow"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.1,
+    "color": "#ffd0c8",
+    "sfx": [
+     "sk_arrow_hit"
+    ]
+   },
+   {
+    "type": "knockback",
+    "duration": 0.14,
+    "magnitude": 0.6
+   }
+  ]
+ },
+ {
+  "id": "support_buff@es_chant",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10,
+    "sfx": [
+     "es_chant"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e",
+    "sfx": [
+     "mag_buff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "heavy_strike@es_heavy_blow",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.25,
+    "color": "#f2c14e",
+    "count": 8,
+    "sfx": [
+     "sk_charge_dark"
+    ]
+   },
+   {
+    "type": "dash",
+    "duration": 0.2,
+    "magnitude": 1,
+    "sfx": [
+     "bt_dash"
+    ]
+   },
+   {
+    "type": "wait",
+    "duration": 0.08
+   },
+   {
+    "type": "strike",
+    "duration": 0.2,
+    "color": "#f2c14e",
+    "count": 1,
+    "sfx": [
+     "bt_swing"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff3c0",
+    "sfx": [
+     "es_heavy_blow"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.3,
+    "magnitude": 1.6
+   },
+   {
+    "type": "particle",
+    "duration": 0.35,
+    "color": "#f2c14e",
+    "count": 16
+   },
+   {
+    "type": "knockback",
+    "duration": 0.22,
+    "magnitude": 1.6
+   },
+   {
+    "type": "return",
+    "duration": 0.25
+   }
+  ]
+ },
+ {
+  "id": "enemy_magic@es_flicker",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.35,
+    "color": "#ff6b6b",
+    "count": 10,
+    "sfx": [
+     "mag_cast_fire"
+    ]
+   },
+   {
+    "type": "projectile",
+    "duration": 0.3,
+    "magnitude": 1.2,
+    "color": "#ff6b6b",
+    "sfx": [
+     "es_flicker"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.12,
+    "color": "#ffb0b0",
+    "sfx": [
+     "mag_fire"
+    ]
+   },
+   {
+    "type": "shake",
+    "duration": 0.2,
+    "magnitude": 1
+   },
+   {
+    "type": "knockback",
+    "duration": 0.16
+   }
+  ]
+ },
+ {
+  "id": "support_buff@es_shell",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#f2c14e",
+    "count": 10,
+    "sfx": [
+     "es_shell"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.45,
+    "color": "#f2c14e"
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#fff0b0"
+   }
+  ]
+ },
+ {
+  "id": "debuff_wave@es_grave_chill",
+  "steps": [
+   {
+    "type": "cast",
+    "duration": 0.3,
+    "color": "#b48cff",
+    "count": 10,
+    "sfx": [
+     "es_grave_chill"
+    ]
+   },
+   {
+    "type": "ring",
+    "duration": 0.5,
+    "color": "#b48cff",
+    "sfx": [
+     "mag_debuff"
+    ]
+   },
+   {
+    "type": "flash",
+    "duration": 0.15,
+    "color": "#b48cff"
+   },
+   {
+    "type": "particle",
+    "duration": 0.3,
+    "color": "#6b4ea0",
+    "count": 10
+   }
+  ]
+ }
+]

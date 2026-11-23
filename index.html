@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0a0810">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>종소리와 재 — 피클 해석판</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="assets/app_icon.png">
+<link rel="apple-touch-icon" href="assets/app_icon.png">
+</head>
+<body>
+<div id="app">
+  <canvas id="game"></canvas>
+  <div id="crt" class="crt-on"></div>
+
+  <div id="hud" class="hud" hidden>
+    <div class="hud-left"><span id="hud-map">셀레인 — 변방 종루 마을</span><span id="hud-coin" class="coin">0 셰켈</span></div>
+    <div class="hud-right">
+      <button class="qbtn" id="btn-mute" title="음소거 (M)">♪</button>
+      <button class="qbtn" id="btn-juke" title="주크박스">♫</button>
+      <button class="qbtn" id="btn-crt" title="브라운관">CRT</button>
+      <button class="qbtn" id="btn-menu" title="메뉴 (X)">≡</button>
+    </div>
+  </div>
+
+  <div id="loading" class="loading">
+    <div class="loading-title">종소리와 재</div>
+    <div class="loading-sub">피클 해석판 · Of Bells and Ashes</div>
+    <div class="bar"><i id="load-bar"></i></div>
+    <div id="load-text" class="loading-note">재를 털어 내는 중…</div>
+  </div>
+
+  <div id="title" class="title-screen" hidden>
+    <div class="title-art"><canvas id="title-canvas" width="480" height="270"></canvas></div>
+    <div class="title-veil"></div>
+    <div class="title-box">
+      <div class="title-logo">
+        <span class="tl-main">종소리와 재</span>
+        <span class="tl-sub">OF BELLS AND ASHES</span>
+        <span class="tl-tag">— 피클 해석판 —</span>
+      </div>
+      <div class="title-menu" id="title-menu"></div>
+      <div class="title-foot">90년대 PC-98 풍 오리지널 사운드트랙 · Web Audio 합성</div>
+    </div>
+  </div>
+
+  <div id="dialogue" class="dialogue" hidden>
+    <div class="portrait-wrap"><canvas id="dlg-portrait" width="48" height="48"></canvas></div>
+    <div class="dlg-body">
+      <div class="dlg-name" id="dlg-name"></div>
+      <div class="dlg-text" id="dlg-text"></div>
+      <div class="dlg-more" id="dlg-more">▼</div>
+    </div>
+  </div>
+
+  <div id="choices" class="choices" hidden></div>
+
+  <div id="menu" class="menu" hidden>
+    <div class="menu-panel panel">
+      <div class="menu-head">
+        <span class="menu-title" id="menu-title">메뉴</span>
+        <span class="menu-hint">X / Esc 닫기</span>
+      </div>
+      <div class="menu-tabs" id="menu-tabs"></div>
+      <div class="menu-content" id="menu-content"></div>
+    </div>
+  </div>
+
+  <div id="battle-ui" class="battle-ui" hidden>
+    <div stamp=""></div>
+    <div class="b-top">
+      <div class="atb-strip" id="atb-strip"></div>
+      <div class="b-turn" id="b-turn"></div>
+    </div>
+    <div class="b-log" id="b-log"></div>
+    <div class="b-party" id="b-party"></div>
+    <div class="b-command panel" id="b-command" hidden></div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <div id="touch" class="touch">
+    <div class="dpad">
+      <button class="dbtn up" data-dir="up">▲</button>
+      <button class="dbtn left" data-dir="left">◀</button>
+      <button class="dbtn right" data-dir="right">▶</button>
+      <button class="dbtn down" data-dir="down">▼</button>
+    </div>
+    <div class="abtns">
+      <button class="abtn b" id="btn-b">B</button>
+      <button class="abtn a" id="btn-a">A</button>
+    </div>
+  </div>
+
+  <div id="fade" class="fade"></div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

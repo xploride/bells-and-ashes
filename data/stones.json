@@ -1,0 +1,212 @@
+[
+ {
+  "id": "stn_b_sound",
+  "name": "회색 종돌",
+  "slot": "base",
+  "element": "sound",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "종루 밑에서 주운 돌. 귀에 대면 아주 멀리서 종이 운다."
+ },
+ {
+  "id": "stn_b_wind",
+  "name": "새털 돌",
+  "slot": "base",
+  "element": "wind",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "하비가 노래값 대신 받았다는 돌. 늘 조금 차갑다."
+ },
+ {
+  "id": "stn_b_water",
+  "name": "우물 돌",
+  "slot": "base",
+  "element": "water",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "셀레인 우물 바닥에서 건진 돌. 마르지 않는다."
+ },
+ {
+  "id": "stn_b_light",
+  "name": "순례의 돌",
+  "slot": "base",
+  "element": "light",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "청음파 순례자들이 대대로 물려준 돌."
+ },
+ {
+  "id": "stn_b_earth",
+  "name": "심문관의 돌",
+  "slot": "base",
+  "element": "earth",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "고드윈이 교단을 떠날 때 들고 나온 단 하나."
+ },
+ {
+  "id": "stn_b_fire",
+  "name": "그을린 돌",
+  "slot": "base",
+  "element": "fire",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "미라가 성당 잔해에서 캐낸 돌. 아직 따뜻하다."
+ },
+ {
+  "id": "stn_b_thunder",
+  "name": "낙서 밑의 돌",
+  "slot": "base",
+  "element": "thunder",
+  "shape": null,
+  "nature": null,
+  "tier": 1,
+  "flavor": "기도실 벽 낙서 뒤에 박혀 있었다."
+ },
+ {
+  "id": "stn_b_sound2",
+  "name": "금 간 종의 심장",
+  "slot": "base",
+  "element": "sound",
+  "shape": null,
+  "nature": null,
+  "tier": 2,
+  "flavor": "셀레인 종의 금 간 자리에서 떨어져 나온 조각. 리엔의 손에서만 운다."
+ },
+ {
+  "id": "stn_f_single",
+  "name": "외줄 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "single",
+  "nature": null,
+  "tier": 1,
+  "flavor": "오르한이 촌장에게 맡겨 둔 돌. 하나를 겨눈다."
+ },
+ {
+  "id": "stn_f_allyone",
+  "name": "손바닥 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "allyOne",
+  "nature": null,
+  "tier": 1,
+  "flavor": "오르한이 떨어뜨린 것을 빵집 아이 토토가 주워 왔다."
+ },
+ {
+  "id": "stn_f_line",
+  "name": "이정표 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "line",
+  "nature": null,
+  "tier": 1,
+  "flavor": "교단이 뽑아 버린 이정표 밑동에서. 한 줄로 퍼진다."
+ },
+ {
+  "id": "stn_f_all",
+  "name": "설교단 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "all",
+  "nature": null,
+  "tier": 1,
+  "flavor": "광장 설교단 장식에서 떨어진 돌. 모두에게 닿는다."
+ },
+ {
+  "id": "stn_f_allyall",
+  "name": "장부 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "allyAll",
+  "nature": null,
+  "tier": 1,
+  "flavor": "교단 서기가 장부에 끼워 숨겨 두었다."
+ },
+ {
+  "id": "stn_f_self",
+  "name": "술잔 돌",
+  "slot": "form",
+  "element": null,
+  "shape": "selfOnly",
+  "nature": null,
+  "tier": 1,
+  "flavor": "취한 종지기가 술잔 바닥에 굴리던 돌."
+ },
+ {
+  "id": "stn_t_strike",
+  "name": "망치 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "strike",
+  "tier": 1,
+  "flavor": "오르한이 남긴 두 번째 돌. 두드린다."
+ },
+ {
+  "id": "stn_t_heal",
+  "name": "숯불 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "heal",
+  "tier": 1,
+  "flavor": "셀레인 대장간 화덕 밑에서. 데운다, 고친다."
+ },
+ {
+  "id": "stn_t_debuff",
+  "name": "재의 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "debuff",
+  "tier": 1,
+  "flavor": "재를 줍는 노인이 평생 모은 것 중 하나."
+ },
+ {
+  "id": "stn_t_buff",
+  "name": "자장가 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "buff",
+  "tier": 1,
+  "flavor": "고아원 아이들이 '용기 돌'이라 부르던 것."
+ },
+ {
+  "id": "stn_t_drain",
+  "name": "담금질 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "drain",
+  "tier": 1,
+  "flavor": "하벨 대장장이가 담금질 끝에 건넨 돌."
+ },
+ {
+  "id": "stn_t_revive",
+  "name": "새벽 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "revive",
+  "tier": 1,
+  "flavor": "청음파 은신처의 마지막 유물."
+ },
+ {
+  "id": "stn_t_strike2",
+  "name": "수호자의 돌",
+  "slot": "tone",
+  "element": null,
+  "shape": null,
+  "nature": "strike",
+  "tier": 2,
+  "flavor": "납골 수호자가 아주 오랫동안 쥐고 있던 돌."
+ }
+]
